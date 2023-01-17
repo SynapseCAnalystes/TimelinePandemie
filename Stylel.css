@@ -1,0 +1,53 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Jost', sans-serif;
+}
+body {
+    background: #f1f1f1;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+.box {
+    color: #333;
+    width: 1000px;
+    min-height: 50px;
+    padding: 20px;
+    border-radius: 3px;
+    height: auto;
+    background: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.b1 {
+    top: 40px;
+}
+
+.btntop {
+    display: block;
+    background: midnightblue;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    position: fixed;
+    bottom : 10px;
+    right: 5px;
+}
